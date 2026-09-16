@@ -1,0 +1,360 @@
+{
+ "repo": "apis-scraping-eshop-greece",
+ "title": "APIs Scraping για E-commerce",
+ "tagline": "Τα πιο δημοφιλή εργαλεία scraping για e-commerce του Apify, ταξινομημένα με βάση τους πραγματικούς χρήστες ανά μήνα: Skroutz, Amazon, Shopify, eBay, AliExpress, Temu και Google Shopping. Προϊόντα, τιμές, κριτικές, πωλητές και απόθεμα. Χωρίς κώδικα, εξαγωγή σε CSV, Excel ή JSON.",
+ "brand": "AutomationByExperts",
+ "storeCategory": "ECOMMERCE",
+ "storeCategoryLabel": "E-commerce",
+ "fetchLimit": 1500,
+ "topCount": 25,
+ "intro": "Μια επιλεγμένη λίστα, που ενημερώνεται κάθε εβδομάδα, με τους {count} actors για e-commerce που χρησιμοποιούνται πραγματικά, από τους {storeTotal} actors της κατηγορίας E-commerce του Apify Store, μαζί με τα εργαλεία για Skroutz και ελληνικά e-shops. Οι actors που δεν έτρεξε κανείς τις τελευταίες 30 ημέρες αφαιρούνται, και κάθε actor είναι ταξινομημένος ανά κατάστημα ή εργασία, ώστε να βρείτε σε δευτερόλεπτα ένα εργαλείο για έρευνα προϊόντων, παρακολούθηση τιμών, ανάλυση κριτικών ή dropshipping.",
+ "languages": [
+  {
+   "label": "English",
+   "repo": "ecommerce-scraping-apis"
+  },
+  {
+   "label": "Español",
+   "repo": "apis-scraping-comercio-electronico"
+  },
+  {
+   "label": "Português",
+   "repo": "apis-scraping-ecommerce-brasil"
+  },
+  {
+   "label": "Français",
+   "repo": "apis-scraping-e-commerce-france"
+  },
+  {
+   "label": "Ελληνικά",
+   "repo": "apis-scraping-eshop-greece"
+  }
+ ],
+ "thousandsSeparator": ".",
+ "exampleActor": "junglee/amazon-crawler",
+ "exampleInput": {
+  "categoryOrProductUrls": [
+   {
+    "url": "https://www.amazon.de/s?k=bluetooth+kopfhoerer"
+   }
+  ],
+  "maxItemsPerStartUrl": 50
+ },
+ "groups": [
+  {
+   "slug": "ellada-kypros",
+   "title": "Skroutz και ελληνικά e-shops",
+   "blurb": "Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car.gr, Vendora, e-food, σούπερ μάρκετ και καταστήματα της Κύπρου.",
+   "keywords": [
+    "skroutz",
+    "bestprice",
+    "public.gr",
+    "kotsovolos",
+    "κωτσόβολος",
+    "plaisio",
+    "πλαίσιο",
+    "e-shop.gr",
+    "car.gr",
+    "vendora",
+    "e-food",
+    "efood",
+    "wolt",
+    "sklavenitis",
+    "σκλαβενίτης",
+    "ab vassilopoulos",
+    "mymarket",
+    "masoutis",
+    "bazaraki",
+    "greek price",
+    "greek e-shop",
+    "greek eshop",
+    "greek food"
+   ]
+  },
+  {
+   "slug": "amazon",
+   "title": "Amazon",
+   "blurb": "Προϊόντα, τιμές, BSR, πωλητές, προσφορές και κριτικές από όλα τα marketplaces της Amazon.",
+   "keywords": [
+    "amazon",
+    "asin"
+   ]
+  },
+  {
+   "slug": "shopify-stores",
+   "title": "Shopify και ηλεκτρονικά καταστήματα",
+   "blurb": "Πλήρεις κατάλογοι προϊόντων από Shopify, WooCommerce και κάθε άλλο e-shop, καθώς και εύρεση καταστημάτων.",
+   "keywords": [
+    "shopify",
+    "woocommerce",
+    "bigcommerce",
+    "magento",
+    "wix",
+    "online store",
+    "ecommerce store",
+    "e-commerce store",
+    "store leads"
+   ]
+  },
+  {
+   "slug": "chinese-marketplaces",
+   "title": "AliExpress, Temu, Shein και Alibaba",
+   "blurb": "Δεδομένα προϊόντων και προμηθευτών για dropshipping και εισαγωγές από κινεζικά marketplaces.",
+   "keywords": [
+    "aliexpress",
+    "temu",
+    "shein",
+    "alibaba",
+    "1688",
+    "taobao",
+    "dhgate",
+    "made-in-china",
+    "tiktok shop"
+   ]
+  },
+  {
+   "slug": "ebay-etsy",
+   "title": "eBay και Etsy",
+   "blurb": "Αγγελίες, τιμές πώλησης, πωλητές και κριτικές από eBay και Etsy.",
+   "keywords": [
+    "ebay",
+    "etsy"
+   ]
+  },
+  {
+   "slug": "us-retailers",
+   "title": "Walmart, Target και μεγάλες αλυσίδες",
+   "blurb": "Προϊόντα, τιμές και απόθεμα από μεγάλες αλυσίδες και σούπερ μάρκετ σε ΗΠΑ, Ηνωμένο Βασίλειο και Αυστραλία.",
+   "keywords": [
+    "walmart",
+    "target.com",
+    "target scraper",
+    "target product",
+    "costco",
+    "best buy",
+    "bestbuy",
+    "home depot",
+    "homedepot",
+    "lowe's",
+    "lowes",
+    "kroger",
+    "instacart",
+    "wayfair",
+    "macy",
+    "sephora",
+    "ulta",
+    "nordstrom",
+    "chewy",
+    "walgreens",
+    "sam's club",
+    "woolworths",
+    "coles",
+    "tesco",
+    "sainsbury",
+    "argos",
+    "aldi",
+    "lidl",
+    "carrefour",
+    "albert heijn"
+   ]
+  },
+  {
+   "slug": "price-comparison",
+   "title": "Google Shopping και σύγκριση τιμών",
+   "blurb": "Συγκρίνετε τιμές ανάμεσα σε πωλητές, εντοπίστε μειώσεις τιμών και παρακολουθήστε τον ανταγωνισμό.",
+   "keywords": [
+    "google shopping",
+    "price comparison",
+    "price tracker",
+    "price monitor",
+    "idealo",
+    "pricerunner",
+    "skroutz",
+    "keepa",
+    "camelcamel",
+    "price history",
+    "competitor price",
+    "map violation",
+    "price checker"
+   ]
+  },
+  {
+   "slug": "global-marketplaces",
+   "title": "Marketplaces άλλων χωρών",
+   "blurb": "Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplaces παγκοσμίως.",
+   "keywords": [
+    "mercado",
+    "flipkart",
+    "shopee",
+    "lazada",
+    "rakuten",
+    "zalando",
+    "allegro",
+    "olx",
+    "vinted",
+    "coupang",
+    "noon",
+    "jumia",
+    "tokopedia",
+    "bol.com",
+    "otto",
+    "cdiscount",
+    "fnac",
+    "wallapop",
+    "kaufland",
+    "trendyol",
+    "ozon",
+    "wildberries",
+    "avito",
+    "marktplaats",
+    "leboncoin",
+    "kleinanzeigen",
+    "craigslist",
+    "facebook marketplace",
+    "gumtree",
+    "depop",
+    "poshmark",
+    "mercari",
+    "grailed",
+    "stockx",
+    "farfetch",
+    "asos",
+    "ikea",
+    "carousell",
+    "meesho",
+    "myntra",
+    "daraz",
+    "tiki",
+    "blibli",
+    "falabella",
+    "jd.com",
+    "g2g"
+   ]
+  },
+  {
+   "slug": "reviews",
+   "title": "Κριτικές και βαθμολογίες προϊόντων",
+   "blurb": "Κριτικές, βαθμολογίες και ερωτήσεις πελατών για ανάλυση συναισθήματος και έρευνα προϊόντων.",
+   "keywords": [
+    "review",
+    "rating",
+    "trustpilot"
+   ]
+  },
+  {
+   "slug": "ads-and-trends",
+   "title": "Διαφημίσεις και τάσεις προϊόντων",
+   "blurb": "Προϊόντα που πουλάνε, βιβλιοθήκες διαφημίσεων και τάσεις αναζήτησης για dropshipping.",
+   "keywords": [
+    "ads library",
+    "ad library",
+    "trend",
+    "winning product",
+    "dropship",
+    "best seller",
+    "bestseller"
+   ]
+  }
+ ],
+ "fallbackGroup": {
+  "slug": "other-ecommerce",
+  "title": "Άλλα εργαλεία e-commerce",
+  "blurb": "Σούπερ μάρκετ, delivery φαγητού, ταξίδια, κουπόνια και άλλες εξειδικευμένες πηγές.",
+  "keywords": []
+ },
+ "extraSearches": [
+  {
+   "group": "ellada-kypros",
+   "terms": [
+    "skroutz",
+    "bestprice",
+    "public.gr",
+    "kotsovolos",
+    "plaisio",
+    "car.gr",
+    "vendora",
+    "e-food",
+    "wolt",
+    "sklavenitis",
+    "bazaraki"
+   ]
+  }
+ ],
+ "featured": [
+  "skroutz-scraper",
+  "multi-marketplace-price-checker",
+  "competitor-price-tracker-price-comparison-by-product-url",
+  "cheap-amazon-scraper",
+  "map-violation-monitor",
+  "brand-abuse-counterfeit-detector",
+  "xe-gr-scraper",
+  "website-change-monitor"
+ ],
+ "faq": [
+  [
+   "Πώς μπορώ να πάρω τιμές από το Skroutz;",
+   "Δείτε την ενότητα Skroutz και ελληνικά e-shops. Ο Skroutz Scraper της ομάδας μας καλύπτει Ελλάδα, Κύπρο, Βουλγαρία, Ρουμανία και Γερμανία, με προσφορές καταστημάτων και ιστορικό τιμών."
+  ],
+  [
+   "Μπορώ να παρακολουθώ αυτόματα τις τιμές των ανταγωνιστών;",
+   "Ναι. Προγραμματίστε οποιονδήποτε actor προϊόντων ή τιμών να τρέχει καθημερινά και χρησιμοποιήστε την ενότητα σύγκρισης τιμών για εργαλεία που καταγράφουν αλλαγές στον χρόνο."
+  ],
+  [
+   "Είναι νόμιμη η συλλογή δεδομένων προϊόντων;",
+   "Η συλλογή δημόσιων πληροφοριών για προϊόντα και τιμές είναι συνηθισμένη πρακτική, αλλά ελέγξτε τους όρους του site και τη νομοθεσία, και μη συλλέγετε προσωπικά δεδομένα που δεν χρειάζεστε (GDPR)."
+  ],
+  [
+   "Χρειάζομαι proxies ή δικούς μου servers;",
+   "Όχι. Οι actors τρέχουν στο cloud του Apify και διαχειρίζονται proxies, browsers και προστασίες anti-bot για εσάς."
+  ]
+ ],
+ "ui": {
+  "statsLine": "**{count} actors σε χρήση** | **{storeTotal} ελέγχθηκαν** | **{topics} ενότητες** | Ενημέρωση {today}",
+  "startFree": "Ξεκινήστε δωρεάν στο Apify",
+  "llmsLink": "llms.txt για βοηθούς AI",
+  "customLink": "Scrapers κατά παραγγελία",
+  "languages": "Γλώσσες",
+  "whatIs": "Τι είναι αυτό;",
+  "howItWorks": "Κάθε εγγραφή είναι ένα εργαλείο στο cloud (ένας «Actor») της πλατφόρμας Apify: το ανοίγετε, συμπληρώνετε τα στοιχεία εισόδου, πατάτε Start και κατεβάζετε τα αποτελέσματα σε JSON, CSV ή Excel, ή το καλείτε από τον κώδικά σας μέσω του Apify API. Κάθε νέος λογαριασμός παίρνει δωρεάν μηνιαία πίστωση, αρκετή για να δοκιμάσετε τους περισσότερους actors χωρίς χρέωση.",
+  "descriptionNote": "> Οι τίτλοι και οι περιγραφές των actors προέρχονται αυτούσιοι από το Apify Store, συνήθως στα αγγλικά. Οι φόρμες εισόδου δέχονται αναζητήσεις στα ελληνικά.",
+  "contents": "Περιεχόμενα",
+  "topTitle": "Οι {n} πιο δημοφιλείς",
+  "topIntro": "Ταξινομημένοι με βάση πόσοι διαφορετικοί χρήστες τους έτρεξαν τις τελευταίες 30 ημέρες.",
+  "colActor": "Actor",
+  "colWhat": "Τι κάνει",
+  "colUsers": "Χρήστες ανά μήνα",
+  "colRating": "Βαθμολογία",
+  "by": "από",
+  "seeAll": "Δείτε και τους {n} actors: {title}",
+  "ownTitle": "Δικοί μας actors",
+  "ownIntro": "Actors που φτιάχνει και συντηρεί η [{brand}]({site}), η ομάδα πίσω από αυτή τη λίστα, με ιδιαίτερη εστίαση σε ελληνικές και κυπριακές πηγές. Τα προβλήματα που αναφέρονται στην καρτέλα Issues του Apify διορθώνονται συνήθως μέσα σε λίγες ημέρες.",
+  "chooseTitle": "Πώς να διαλέξετε actor",
+  "choose": [
+   "**Χρήστες ανά μήνα**: το πιο αξιόπιστο κριτήριο. Μετράει πόσοι διαφορετικοί άνθρωποι έτρεξαν τον actor τις τελευταίες 30 ημέρες, οπότε τα εγκαταλελειμμένα εργαλεία πέφτουν στο τέλος.",
+   "**Βαθμολογία**: προέρχεται από τις κριτικές του Apify Store. Βαθμός 4,5 και πάνω με δεκάδες κριτικές σημαίνει αξιόπιστα δεδομένα.",
+   "**Μοντέλο τιμολόγησης**: διαφέρει ανά actor (χρέωση ανά αποτέλεσμα, ανά γεγονός ή μηνιαία ενοικίαση). Η τρέχουσα τιμή φαίνεται πάντα στη σελίδα του actor, συγκρίνετε εκεί πριν από μια μεγάλη εκτέλεση.",
+   "**Κάντε πρώτα μια μικρή δοκιμή.** Περιορίστε την είσοδο σε 10 ή 20 αποτελέσματα, ελέγξτε τα πεδία που χρειάζεστε και μετά μεγαλώστε την κλίμακα."
+  ],
+  "runTitle": "Πώς να τρέξετε έναν actor",
+  "run": [
+   "[Δημιουργήστε δωρεάν λογαριασμό Apify]({signup}) (χωρίς κάρτα).",
+   "Ανοίξτε όποιον actor θέλετε από τη λίστα και πατήστε **Try for free**.",
+   "Συμπληρώστε τη φόρμα εισόδου (αναζητήσεις, URLs ή φίλτρα) και πατήστε **Start**.",
+   "Κατεβάστε τα αποτελέσματα από την καρτέλα **Output**, ή προγραμματίστε τον actor και στείλτε τα δεδομένα σε Google Sheets, Zapier, Make, n8n ή webhook."
+  ],
+  "fromCode": "Από κώδικα, όλοι οι actors έχουν το ίδιο API:",
+  "faqTitle": "Συχνές ερωτήσεις",
+  "faqUpdatedQ": "Πόσο συχνά ενημερώνεται η λίστα;",
+  "faqUpdatedA": "Ένα GitHub Action την ξαναφτιάχνει κάθε εβδομάδα από το δημόσιο API του Apify Store, έτσι οι νέοι actors εμφανίζονται και οι εγκαταλελειμμένοι αφαιρούνται αυτόματα.",
+  "faqAddQ": "Μπορώ να προσθέσω τον δικό μου actor;",
+  "faqAddA": "Δημοσιεύστε τον στο Apify Store στην κατηγορία {category}. Μόλις αρχίσει να χρησιμοποιείται, μπαίνει στη λίστα με την επόμενη εβδομαδιαία ενημέρωση. Δεν χρειάζεται pull request.",
+  "customTitle": "Χρειάζεστε scraper κατά παραγγελία;",
+  "customText": "Αν κανένας actor δεν καλύπτει την πηγή σας, η [{brand}]({site}) φτιάχνει και συντηρεί scrapers Apify κατά παραγγελία, με εμπειρία σε ελληνικά sites όπως Skroutz, Spitogatos και XE.gr. Στείλτε email στο {email} με το site και τα πεδία που χρειάζεστε.",
+  "footer": "Αν η λίστα σας γλίτωσε χρόνο, ένα αστέρι βοηθά κι άλλους να τη βρουν. Οι σύνδεσμοι προς το Apify περιέχουν κωδικό παραπομπής που στηρίζει τη συντήρηση της λίστας, χωρίς επιπλέον κόστος για εσάς.",
+  "groupPageTitle": "{title}: {n} actors του Apify",
+  "groupPageIntro": "Μέρος της λίστας [{catalog}](../README.md). Ταξινόμηση κατά χρήστες ανά μήνα. Ενημέρωση {today}.",
+  "groupPageCta": "[Δημιουργήστε δωρεάν λογαριασμό Apify]({signup}) για να τρέξετε οποιονδήποτε από αυτούς.",
+  "llmsIntro": "Ενημέρωση {today}. Χρήστες ανά μήνα = διαφορετικοί χρήστες τις τελευταίες 30 ημέρες. Οι σύνδεσμοι περιέχουν κωδικό παραπομπής.",
+  "llmsUsers": "{n} χρήστες ανά μήνα"
+ }
+}
