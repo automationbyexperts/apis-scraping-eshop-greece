@@ -2,7 +2,7 @@
 
 > Τα πιο δημοφιλή εργαλεία scraping για e-commerce του Apify, ταξινομημένα με βάση τους πραγματικούς χρήστες ανά μήνα: Skroutz, Amazon, Shopify, eBay, AliExpress, Temu και Google Shopping. Προϊόντα, τιμές, κριτικές, πωλητές και απόθεμα. Χωρίς κώδικα, εξαγωγή σε CSV, Excel ή JSON.
 
-**1.154 actors σε χρήση** | **22.195 ελέγχθηκαν** | **11 ενότητες** | Ενημέρωση 2026-11-23
+**1.182 actors σε χρήση** | **22.230 ελέγχθηκαν** | **11 ενότητες** | Ενημέρωση 2026-11-23
 
 [Ξεκινήστε δωρεάν στο Apify](https://apify.com/?fpr=youssef) | [llms.txt για βοηθούς AI](llms.txt) | [JSON](data/actors.json) | [CSV](data/actors.csv) | [Scrapers κατά παραγγελία](https://automationbyexperts.com/apify?utm_source=github&utm_medium=referral&utm_campaign=apis-scraping-eshop-greece)
 
@@ -10,7 +10,7 @@
 
 ## Τι είναι αυτό;
 
-Μια επιλεγμένη λίστα, που ενημερώνεται κάθε εβδομάδα, με τους 1.154 actors για e-commerce που χρησιμοποιούνται πραγματικά, από τους 22.195 actors της κατηγορίας E-commerce του Apify Store, μαζί με τα εργαλεία για Skroutz και ελληνικά e-shops. Οι actors που δεν έτρεξε κανείς τις τελευταίες 30 ημέρες αφαιρούνται, και κάθε actor είναι ταξινομημένος ανά κατάστημα ή εργασία, ώστε να βρείτε σε δευτερόλεπτα ένα εργαλείο για έρευνα προϊόντων, παρακολούθηση τιμών, ανάλυση κριτικών ή dropshipping.
+Μια επιλεγμένη λίστα, που ενημερώνεται κάθε εβδομάδα, με τους 1.182 actors για e-commerce που χρησιμοποιούνται πραγματικά, από τους 22.230 actors της κατηγορίας E-commerce του Apify Store, μαζί με τα εργαλεία για Skroutz και ελληνικά e-shops. Οι actors που δεν έτρεξε κανείς τις τελευταίες 30 ημέρες αφαιρούνται, και κάθε actor είναι ταξινομημένος ανά κατάστημα ή εργασία, ώστε να βρείτε σε δευτερόλεπτα ένα εργαλείο για έρευνα προϊόντων, παρακολούθηση τιμών, ανάλυση κριτικών ή dropshipping.
 
 Κάθε εγγραφή είναι ένα εργαλείο στο cloud (ένας «Actor») της πλατφόρμας Apify: το ανοίγετε, συμπληρώνετε τα στοιχεία εισόδου, πατάτε Start και κατεβάζετε τα αποτελέσματα σε JSON, CSV ή Excel, ή το καλείτε από τον κώδικά σας μέσω του Apify API. Κάθε νέος λογαριασμός παίρνει δωρεάν μηνιαία πίστωση, αρκετή για να δοκιμάσετε τους περισσότερους actors χωρίς χρέωση.
 
@@ -20,16 +20,16 @@
 
 - [Οι 25 πιο δημοφιλείς](#οι-25-πιο-δημοφιλείς)
 - [Skroutz και ελληνικά e-shops](#skroutz-και-ελληνικά-e-shops) (33)
-- [Amazon](#amazon) (80)
-- [Shopify και ηλεκτρονικά καταστήματα](#shopify-και-ηλεκτρονικά-καταστήματα) (60)
-- [AliExpress, Temu, Shein και Alibaba](#aliexpress-temu-shein-και-alibaba) (116)
+- [Amazon](#amazon) (84)
+- [Shopify και ηλεκτρονικά καταστήματα](#shopify-και-ηλεκτρονικά-καταστήματα) (65)
+- [AliExpress, Temu, Shein και Alibaba](#aliexpress-temu-shein-και-alibaba) (115)
 - [eBay και Etsy](#ebay-και-etsy) (59)
-- [Walmart, Target και μεγάλες αλυσίδες](#walmart-target-και-μεγάλες-αλυσίδες) (88)
-- [Google Shopping και σύγκριση τιμών](#google-shopping-και-σύγκριση-τιμών) (47)
-- [Marketplaces άλλων χωρών](#marketplaces-άλλων-χωρών) (180)
-- [Κριτικές και βαθμολογίες προϊόντων](#κριτικές-και-βαθμολογίες-προϊόντων) (172)
-- [Διαφημίσεις και τάσεις προϊόντων](#διαφημίσεις-και-τάσεις-προϊόντων) (35)
-- [Άλλα εργαλεία e-commerce](#άλλα-εργαλεία-e-commerce) (284)
+- [Walmart, Target και μεγάλες αλυσίδες](#walmart-target-και-μεγάλες-αλυσίδες) (86)
+- [Google Shopping και σύγκριση τιμών](#google-shopping-και-σύγκριση-τιμών) (50)
+- [Marketplaces άλλων χωρών](#marketplaces-άλλων-χωρών) (178)
+- [Κριτικές και βαθμολογίες προϊόντων](#κριτικές-και-βαθμολογίες-προϊόντων) (177)
+- [Διαφημίσεις και τάσεις προϊόντων](#διαφημίσεις-και-τάσεις-προϊόντων) (36)
+- [Άλλα εργαλεία e-commerce](#άλλα-εργαλεία-e-commerce) (299)
 - [Δικοί μας actors](#δικοί-μας-actors)
 - [Πώς να διαλέξετε actor](#πώς-να-διαλέξετε-actor)
 - [Πώς να τρέξετε έναν actor](#πώς-να-τρέξετε-έναν-actor)
@@ -54,7 +54,7 @@
 | 10 | [Facebook Marketplace Scraper](https://apify.com/apify/facebook-marketplace-scraper?fpr=youssef) <br><sub>από Apify</sub> | Extract data from one or multiple Facebook Marketplace listings. Scrape data on apartments, whole categories, items for sale, prices, location and... | 1.147 | 3.9 (30) |
 | 11 | [eBay Sold Listings Search](https://apify.com/caffein.dev/ebay-sold-listings?fpr=youssef) <br><sub>από Caffein Dev</sub> | Get confirmed eBay sold prices. Search by keyword across 8 marketplaces, filter by date range, and export clean structured data for comps, resale... | 1.102 | 4.4 (14) |
 | 12 | [1688 Products Wholesale Scraper - Full Supplier Details](https://apify.com/parsebird/1688-wholesale-scraper?fpr=youssef) <br><sub>από ParseBird</sub> | Scrape 1688 wholesale products, supplier details, tiered prices, MOQ, SKUs, shipping, certifications, dropship signals, and images. Export JSON, CSV... | 1.075 | 5 (1) |
-| 13 | [JD Products Scraper \| JD.com Prices, Brands and Barcodes](https://apify.com/silentflow/jd-products-scraper?fpr=youssef) <br><sub>από SilentFlow</sub> | JD.com (京东) products scraper: search 京东商品 by keyword, shop page or SKU id and get the real CNY price, brand, model, UPC barcode, shop, review count... | 917 | - |
+| 13 | [JD Products Scraper \| JD.com Prices, Brands and Barcodes](https://apify.com/silentflow/jd-products-scraper?fpr=youssef) <br><sub>από SilentFlow</sub> | JD.com (京东) products scraper: search 京东商品 by keyword, shop page or SKU id and get the real CNY price, brand, model, UPC barcode, shop, review count... | 915 | - |
 | 14 | [Taobao Tmall 淘宝 Product Scraper - Prices, SKUs, Reviews](https://apify.com/zen-studio/taobao-search-scraper?fpr=youssef) <br><sub>από Zen Studio</sub> | Extract Taobao (淘宝) and Tmall (天猫) prices, SKUs, reviews, shop data, images, and attributes by keyword. Supports Chinese searches like 女装, 口红, 手机壳... | 910 | 4.7 (3) |
 | 15 | [Goofish Scraper 闲鱼 Xianyu (Idlefish) - Listings + Sellers](https://apify.com/zen-studio/goofish-xianyu-search-scraper?fpr=youssef) <br><sub>από Zen Studio</sub> | Search Goofish 闲鱼 (Xianyu/Idlefish) listings by keyword or batches of keywords. Export prices, full descriptions, photos, condition, province and... | 752 | 1 (1) |
 | 16 | [Facebook marketplace scraper](https://apify.com/curious_coder/facebook-marketplace?fpr=youssef) <br><sub>από Curious Coder</sub> | Scrape facebook marketplace listings from search URLs or using filters and get complete details including seller info. Option to get only new... | 740 | 4.9 (8) |
@@ -105,6 +105,7 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [Amazon Reviews Scraper with Advanced Filters](https://apify.com/delicious_zebu/amazon-reviews-scraper-with-advanced-filters?fpr=youssef) <br><sub>από Zebu Data</sub> | Extract Amazon reviews from any ASIN or URL across 16 Amazon marketplaces: rating, title, text, date, country, photos, videos, verified badge and... | 592 | 3.9 (53) |
 | [Amazon Scraper](https://apify.com/automly/amazon-products-scraper---fast-efficient-with-sales-data?fpr=youssef) <br><sub>από Automly</sub> | Amazon product scraper: Scrape Amazon products by keyword, product link or ASIN in 20 Amazon stores: price, Best Sellers Rank, monthly sales and... | 583 | 5 (2) |
 | [Amazon Bestsellers Scraper](https://apify.com/junglee/amazon-bestsellers?fpr=youssef) <br><sub>από Junglee</sub> | Scrape the Amazon Best Sellers categories and extract details on top 100 most popular items on Amazon. Download product name, price, URL, and... | 509 | 4.3 (12) |
+| [Amazon Search Results Scraper](https://apify.com/apt_marble/amazon-search-results-scraper?fpr=youssef) <br><sub>από Hamza</sub> | Collect Amazon search results for any keyword, with sponsored placements flagged and organic rank reported separately. Filter by price, stars and... | 492 | - |
 | [Amazon Scraper](https://apify.com/junglee/free-amazon-product-scraper?fpr=youssef) <br><sub>από Junglee</sub> | Gets you product data from Amazon. Unofficial API. Scrapes and downloads product information without using the Amazon API, including reviews, prices... | 455 | 4.7 (45) |
 | [Fast Amazon Bestsellers Scraper](https://apify.com/amazon-scraper/amazon-bestsellers-scraper?fpr=youssef) <br><sub>από Amazon Scraper</sub> | Amazon Best Sellers Scraper, Amazon URLs from 9 different Amazon domains:.com, com.au,.in, co.jp,.de..co.uk,.fr,.es and.it. Scrape the 100... | 317 | 5 (1) |
 | [Amazon Product Details Scraper](https://apify.com/delicious_zebu/amazon-product-details-scraper?fpr=youssef) <br><sub>από Zebu Data</sub> | Turn ASINs or Amazon product URLs into full product records: price, list price, coupons, Best Sellers Rank, variants, stock, delivery date, sellers... | 275 | 5 (27) |
@@ -112,9 +113,8 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [Amazon Scraper: Product Search & Sales Volume](https://apify.com/automation-lab/amazon-scraper?fpr=youssef) <br><sub>από Automation Lab</sub> | Scrape Amazon search results in 10 marketplaces: price, list price, rating, reviews, "bought in past month" sales volume, Best Seller and Amazon's... | 168 | 5 (1) |
 | [Amazon ASINs Scraper](https://apify.com/junglee/amazon-asins-scraper?fpr=youssef) <br><sub>από Junglee</sub> | Gets you product data from Amazon. Unofficial API. Scrapes and downloads product information without using the Amazon API, including reviews, prices... | 112 | 5.0 (11) |
 | [Amazon Seller Contact Scraper - Emails, Phone, VAT & Ratings](https://apify.com/memo23/amazon-sellers-scraper?fpr=youssef) <br><sub>από Muhamed Didovic</sub> | Amazon seller scraper: turn any search, best-seller list or product URL into a lead list of the third-party sellers behind it, with legal name... | 99 | 5 (2) |
-| [Amazon Reviews Scraper](https://apify.com/epctex/amazon-reviews-scraper?fpr=youssef) <br><sub>από epctex</sub> | Gain access to incredibly rapid, essential, and highly informative Amazon product review data. Pull out ratings, reviews, images, product specifics... | 73 | 4.9 (8) |
 
-[Δείτε και τους 80 actors: Amazon](groups/amazon.md)
+[Δείτε και τους 84 actors: Amazon](groups/amazon.md)
 
 ## Shopify και ηλεκτρονικά καταστήματα
 
@@ -134,11 +134,11 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [Shopify Store Finder - URLs, emails & more](https://apify.com/igolaizola/shopify-store-finder?fpr=youssef) <br><sub>από Iñigo Garcia Olaizola</sub> | Shopify Store Finder locates Shopify stores by keyword and returns structured data: ID, title, description, URL, contact emails, earliest page date... | 33 | 5 (2) |
 | [Shopify Lead Scraper with 1M+ Email Database](https://apify.com/xmiso_scrapers/shopify-shops-email-leads-scraper?fpr=youssef) <br><sub>από Miso</sub> | scrape shopify powered shops for ecommerce email leads from merchantgenius and own scraped sources | 13 | 4.2 (11) |
 | [Shopify App Store Scraper \| All-In-One](https://apify.com/fatihtahta/shopify-app-store-scraper?fpr=youssef) <br><sub>από Fatih Tahta</sub> | Captures rich profiles for listed apps on Shopify App Store Marketplace. Get deduped clean results including pricing, ratings, developer info, and... | 13 | 3.1 (2) |
+| [Shopify Product Reviews Scraper for Judge.me and Okendo](https://apify.com/cleanscrape/shopify-reviews-scraper?fpr=youssef) <br><sub>από CleanScrape</sub> | Export Judge.me reviews and Okendo reviews from Shopify product, collection or store links. Compare customer feedback using ratings, review text... | 11 | - |
 | [Shopify Product Scraper](https://apify.com/webdatalabs/shopify-product-scraper?fpr=youssef) <br><sub>από WebDataLabs</sub> | Extract full product catalogues from any Shopify store with a public products.json feed: titles, prices, compare-at prices, discounts, price ranges... | 9 | 5.0 (2) |
 | [Shopify & WooCommerce Store Finder \| Emails, Phones](https://apify.com/memo23/shopify-store-leads-scraper?fpr=youssef) <br><sub>από Muhamed Didovic</sub> | Find Shopify and WooCommerce stores by niche, country and contact channel, ranked by website traffic, in seconds. Each store: emails, phones... | 6 | - |
-| [Shopify Email Scraper - Advanced, Cheapest & Reliable](https://apify.com/contactminerlabs/shopify-email-scraper-advanced-cheapest-reliable?fpr=youssef) <br><sub>από ContactMinerLabs</sub> | **Scrape Bulk Shopify Emails** Enter your search parameters to collect Shopify store contact emails, along with store name, website URL, contact... | 5 | - |
 
-[Δείτε και τους 60 actors: Shopify και ηλεκτρονικά καταστήματα](groups/shopify-stores.md)
+[Δείτε και τους 65 actors: Shopify και ηλεκτρονικά καταστήματα](groups/shopify-stores.md)
 
 ## AliExpress, Temu, Shein και Alibaba
 
@@ -162,7 +162,7 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [TikTok Shop Scraper (NO COOKIES)](https://apify.com/unseenuser/TikTok-Shop-Scraper?fpr=youssef) <br><sub>από Unseen User</sub> | Extract TikTok Shop product data, reviews, shop catalogs and creator affiliate showcases at scale. Get price, discount, units sold, rating, review... | 209 | 4.6 (6) |
 | [AliExpress Products Scraper](https://apify.com/devcake/aliexpress-products-scraper?fpr=youssef) <br><sub>από devcake</sub> | Scrape AliExpress search results to find best-selling products. Get prices, ratings, reviews, and order counts | 202 | 5 (2) |
 
-[Δείτε και τους 116 actors: AliExpress, Temu, Shein και Alibaba](groups/chinese-marketplaces.md)
+[Δείτε και τους 115 actors: AliExpress, Temu, Shein και Alibaba](groups/chinese-marketplaces.md)
 
 ## eBay και Etsy
 
@@ -179,12 +179,12 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [Etsy Scraper](https://apify.com/epctex/etsy-scraper?fpr=youssef) <br><sub>από epctex</sub> | Scrape valuable data from over 4 million Etsy sellers. Extract product details, descriptions, listed date, images, seller info, and more. Customize... | 197 | 4.2 (16) |
 | [Etsy Search Scraper 2026](https://apify.com/devcake/etsy-search-scraper?fpr=youssef) <br><sub>από devcake</sub> | Scrape Etsy products by keyword, and by image. Extract listings with prices, ratings, images, and full product details including description, tags... | 180 | - |
 | [Etsy Keyword Research + Reverse Keyword Tool](https://apify.com/yumitori/etsy-keyword-tool?fpr=youssef) <br><sub>από Yakugusa Yumitori</sub> | Find the Etsy keywords actually worth chasing. Every term is scored on real demand (live carts, recent sales), competition and buyer intent, measured... | 93 | - |
-| [Etsy Shop Scraper: Listings, Reviews & Sales](https://apify.com/epicscrapers/etsy-shop-scraper?fpr=youssef) <br><sub>από Epic Scrapers</sub> | Scrape any Etsy shop: a profile with total sales, ratings, followers and seller contact details, every listing with live in-cart counts, tags and 24h... | 85 | - |
 | [EBAY: Search \| Sold Prices \|Store \| Seller Pages (8 Markets)](https://apify.com/memo23/apify-ebay-search-cheerio?fpr=youssef) <br><sub>από Muhamed Didovic</sub> | Unofficial eBay API to extract data from eBay search results and product details with our eBay Search Results and Listing Details Scraper. Perfect... | 80 | 5 (7) |
 | [eBay Product Scraper - Details, Variants & Specs](https://apify.com/delicious_zebu/ebay-product-details-scraper?fpr=youssef) <br><sub>από Zebu Data</sub> | Extract complete product data from any eBay listing URL: price, discount, variations, bulk-price tiers, seller, shipping, returns, item specifics... | 74 | 5 (28) |
 | [eBay Scraper](https://apify.com/dtrungtin/ebay-items-scraper?fpr=youssef) <br><sub>από Tin</sub> | Unofficial eBay API to extract data from eBay based on keywords or categories. Scrape prices, product descriptions, images, location, availability... | 70 | 3.0 (2) |
 | [eBay Scraper - Listings, Prices & Item Details (8 Sites)](https://apify.com/khadinakbar/ebay-all-in-one-scraper?fpr=youssef) <br><sub>από Khadin Akbar</sub> | Scrape active eBay listings by keyword or item URL on 8 eBay sites: price, shipping, total, condition, bids, sold count, seller, specifics. Fast... | 60 | - |
 | [Etsy Reviews](https://apify.com/hello.datawizards/etsy-reviews?fpr=youssef) <br><sub>από datawizards</sub> | Quickly extract detailed customer reviews from Etsy product listings. Perfect for Etsy sellers and analysts! | 41 | 5 (2) |
+| [Etsy Trending Products Tracker](https://apify.com/axlymxp/etsy-trending-products-tracker?fpr=youssef) <br><sub>από axly</sub> | Track which Etsy products are gaining popularity fastest. Monitors keywords across scheduled runs and ranks listings by favorites velocity, plus... | 35 | - |
 
 [Δείτε και τους 59 actors: eBay και Etsy](groups/ebay-etsy.md)
 
@@ -210,7 +210,7 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [CostCo Fast Product Scraper](https://apify.com/e-commerce/costco-fast-product-scraper?fpr=youssef) <br><sub>από E Commerce</sub> | Scrape product data from Costco.com search, category, and product pages, including name, listPrice, pricePerUnit, currencyCode, rating, reviewsCount... | 26 | 4.6 (4) |
 | [Tesco UK & Ireland Scraper](https://apify.com/radeance/tesco-scraper?fpr=youssef) <br><sub>από Radeance</sub> | Extract product details like UPC / GTIN, price, competitor price, category, availability, promotions, nutrition, and images from Tesco UK & IE at... | 21 | 4.5 (5) |
 
-[Δείτε και τους 88 actors: Walmart, Target και μεγάλες αλυσίδες](groups/us-retailers.md)
+[Δείτε και τους 86 actors: Walmart, Target και μεγάλες αλυσίδες](groups/us-retailers.md)
 
 ## Google Shopping και σύγκριση τιμών
 
@@ -234,7 +234,7 @@ Skroutz, BestPrice, Public, Κωτσόβολος, Πλαίσιο, e-shop.gr, Car
 | [Price scraper - Extract prices, availability from any url/EAN](https://apify.com/s-r/price-scraper---extract-prices-availability-from-any-url?fpr=youssef) <br><sub>από SR</sub> | Cheapest advanced price scraping tool for PDP URLs (works with any site!)/EAN. Extract real-time product prices, even from those that are blocked!... | 8 | - |
 | [AutoTrader.ca Price Drop Monitor & Car Scraper](https://apify.com/fayoussef/autotrader-ca?fpr=youssef) <br><sub>από Youssef Farhan</sub> | Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it daily. Or... | 8 | 5 (2) |
 
-[Δείτε και τους 47 actors: Google Shopping και σύγκριση τιμών](groups/price-comparison.md)
+[Δείτε και τους 50 actors: Google Shopping και σύγκριση τιμών](groups/price-comparison.md)
 
 ## Marketplaces άλλων χωρών
 
@@ -243,7 +243,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | Actor | Τι κάνει | Χρήστες ανά μήνα | Βαθμολογία |
 |---|---|---:|---|
 | [Facebook Marketplace Scraper](https://apify.com/apify/facebook-marketplace-scraper?fpr=youssef) <br><sub>από Apify</sub> | Extract data from one or multiple Facebook Marketplace listings. Scrape data on apartments, whole categories, items for sale, prices, location and... | 1.147 | 3.9 (30) |
-| [JD Products Scraper \| JD.com Prices, Brands and Barcodes](https://apify.com/silentflow/jd-products-scraper?fpr=youssef) <br><sub>από SilentFlow</sub> | JD.com (京东) products scraper: search 京东商品 by keyword, shop page or SKU id and get the real CNY price, brand, model, UPC barcode, shop, review count... | 917 | - |
+| [JD Products Scraper \| JD.com Prices, Brands and Barcodes](https://apify.com/silentflow/jd-products-scraper?fpr=youssef) <br><sub>από SilentFlow</sub> | JD.com (京东) products scraper: search 京东商品 by keyword, shop page or SKU id and get the real CNY price, brand, model, UPC barcode, shop, review count... | 915 | - |
 | [Facebook marketplace scraper](https://apify.com/curious_coder/facebook-marketplace?fpr=youssef) <br><sub>από Curious Coder</sub> | Scrape facebook marketplace listings from search URLs or using filters and get complete details including seller info. Option to get only new... | 740 | 4.9 (8) |
 | [Shopee Search & Category Scraper - Cheapest](https://apify.com/xtracto/shopee-search?fpr=youssef) <br><sub>από Farhan Febrian Nauval</sub> | Search Shopee products by keyword, category URL, or any Shopee listing URL. Optionally enrich each result with full product detail (price variants... | 540 | 5 (3) |
 | [MercadoLibre Scraper: Search, Products, Reviews, Q&A, Sellers](https://apify.com/sourabhbgp/mercadolibre-scraper?fpr=youssef) <br><sub>από Sourabh Kumar</sub> | Scrape MercadoLibre and Mercado Livre in 18 Latin American countries. Paste a keyword or URL and get up to 2,000 search results per query, full... | 459 | 5 (1) |
@@ -258,7 +258,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | [Mercadolivre Scraper (Brasil português)](https://apify.com/karamelo/mercadolivre-scraper-brasil-portugues?fpr=youssef) <br><sub>από karamelo</sub> | MercadoLivre Scraper para produtos e ofertas do dia é uma ferramenta de web scraping de última geração, criada para o site brasileiro MercadoLivre... | 169 | 4.8 (7) |
 | [Allegro Scraper - Products, Prices & Seller Leads (NIP, Email)](https://apify.com/memo23/allegro-scraper?fpr=youssef) <br><sub>από Muhamed Didovic</sub> | Scrape Allegro.pl products by keyword, category, seller or offer URL - fast and low-cost at scale. Each row: price (+ original), seller rating... | 148 | 5 (3) |
 
-[Δείτε και τους 180 actors: Marketplaces άλλων χωρών](groups/global-marketplaces.md)
+[Δείτε και τους 178 actors: Marketplaces άλλων χωρών](groups/global-marketplaces.md)
 
 ## Κριτικές και βαθμολογίες προϊόντων
 
@@ -282,7 +282,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | [Google Play Data Extractor](https://apify.com/epctex/google-play-scraper?fpr=youssef) <br><sub>από epctex</sub> | Get valuable info & reviews from Google Play! Access title, price, ratings, download rates, screenshots, released date, version number & developer... | 67 | 5 (11) |
 | [Facebook Page Contact Scraper](https://apify.com/saswave/facebook-company-page-scraper?fpr=youssef) <br><sub>από SASWAVE</sub> | Collect informations at scale about: phone, email, page id, popular hours, openings, name, description, industry category, likes, followers... | 62 | 5.0 (3) |
 
-[Δείτε και τους 172 actors: Κριτικές και βαθμολογίες προϊόντων](groups/reviews.md)
+[Δείτε και τους 177 actors: Κριτικές και βαθμολογίες προϊόντων](groups/reviews.md)
 
 ## Διαφημίσεις και τάσεις προϊόντων
 
@@ -306,7 +306,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | [Facebook Ads Library Scraper - Meta Ads, All Countries](https://apify.com/eiv/meta-ads-library-scraper?fpr=youssef) <br><sub>από Eimantas V</sub> | Scrape the Facebook Ads Library by keyword, Page or Ad Library link, in any country: ad copy, images and videos, landing pages, CTAs, run dates... | 14 | - |
 | [Zara Product Scraper](https://apify.com/shahidirfan/Zara-Product-Scraper?fpr=youssef) <br><sub>από Shahid Irfan</sub> | Extract the latest fashion data with this powerful Zara scraper! Gather prices, images, sizes, and descriptions from global stores. Perfect for trend... | 14 | 5 (4) |
 
-[Δείτε και τους 35 actors: Διαφημίσεις και τάσεις προϊόντων](groups/ads-and-trends.md)
+[Δείτε και τους 36 actors: Διαφημίσεις και τάσεις προϊόντων](groups/ads-and-trends.md)
 
 ## Άλλα εργαλεία e-commerce
 
@@ -318,7 +318,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | [E-commerce Scraping Tool](https://apify.com/apify/e-commerce-scraping-tool?fpr=youssef) <br><sub>από Apify</sub> | Scrape data from e-commerce websites with E-commerce Scraping Tool. Scrape almost any retail site in minutes, extract e-commerce data and use it to... | 734 | 4.3 (53) |
 | [Pinterest Scraper \| Pins, Boards and Profiles](https://apify.com/silentflow/pinterest-scraper-ppr?fpr=youssef) <br><sub>από SilentFlow</sub> | Pinterest scraper to extract pins, boards, user profiles and search results. Get Pinterest data with working pin links, images in 9 sizes, videos... | 453 | 5 (2) |
 | [Instagram Posts & Reels Scraper](https://apify.com/intropix/instagram-posts-reels-scraper?fpr=youssef) <br><sub>από IntroPix</sub> | Scrape Instagram posts and reels with no login, no cookies, no OAuth. Captions, likes, views, comments, carousels, video URLs as clean JSON | 342 | 5.0 (2) |
-| [Similarweb Scraper API - Website Traffic & Competitor Analysis](https://apify.com/trakk/similarweb-scraper?fpr=youssef) <br><sub>από Kelopr_bk</sub> | Website traffic checker and analytics for any domain, powered by Similarweb data: monthly visits, global & country rank, traffic sources, keywords... | 310 | - |
+| [Similarweb Scraper API - Website Traffic & Competitor Analysis](https://apify.com/trakk/similarweb-scraper?fpr=youssef) <br><sub>από Kelopr_bk</sub> | Website traffic checker and analytics for any domain, powered by Similarweb data: monthly visits, global & country rank, traffic sources, keywords... | 311 | - |
 | [Google Lens \| AI Mode \| Reverse image search \| Translation+OCR](https://apify.com/borderline/google-lens?fpr=youssef) <br><sub>από borderline</sub> | Google Lens \| Reverse image search \| AI Mode Seamlessly identify text, translate in real time, recognize and classify objects, reverse search images... | 270 | 3.9 (4) |
 | [Google Flights Scraper - Most Comprehensive](https://apify.com/kaix/google-flights-scraper?fpr=youssef) <br><sub>από Kai</sub> | ~ one-way, round-trip, and multi-city flights, compare flexible dates and destinations, and add optional booking choices | 240 | - |
 | [Google Lens API \| Reverse Image and Visual Product Search](https://apify.com/johnvc/google-lens-api?fpr=youssef) <br><sub>από John</sub> | Google Lens API for reverse image search and visual product search. Upload images or send base64 from code (up to 10 per run), or call it as a Server... | 164 | 5 (1) |
@@ -330,7 +330,7 @@ Mercado Libre, Allegro, OLX, Vinted, Rakuten, Zalando και άλλα marketplac
 | [Pinterest Search Scraper](https://apify.com/fetch_cat/pinterest-search-scraper?fpr=youssef) <br><sub>από Fetch Cat</sub> | Search Pinterest by keyword and export pin images, video URLs, creators, boards, outbound links, positions, and public metadata | 91 | 5 (1) |
 | [Pinterest Scraper - Pins, Boards, Search, Images & Video](https://apify.com/dltik/pinterest-scraper?fpr=youssef) <br><sub>από Walid</sub> | Scrape Pinterest pins (image + video) by keyword search, board, profile or related pins. Get saves, comments, dominant color, images, video URL... | 84 | 5 (1) |
 
-[Δείτε και τους 284 actors: Άλλα εργαλεία e-commerce](groups/other-ecommerce.md)
+[Δείτε και τους 299 actors: Άλλα εργαλεία e-commerce](groups/other-ecommerce.md)
 
 ## Δικοί μας actors
 
